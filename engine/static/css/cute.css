@@ -2,4 +2,5 @@ img{
     height: 300px;  
 width: 300px; 
 align-content: center;  
+border-radius: 50;
 }
