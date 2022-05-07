@@ -8,14 +8,17 @@
     .search-bar{
         margin-top: 7%;
     }
+    
+
+
 </style>
     <div class="home">
-        <h1>Bunny Search Engine</h1>
-        <img src="../static/images/bunny.png" alt="ugly search engine"  width="150" height="150">
+        <h1>coolest job search engine</h1>
+        <img src="/engine/static/images/jobsearch.png" alt="ugly search engine"  width="150" height="150">
         <div class="search-bar">
             <form method="POST" action="results">
                 {% csrf_token %}
-                <input class="form-control form-control-lg" type="text" placeholder="what are you searching for?" name="search">
+                <input class="form-control form-control-lg" type="text" placeholder="what is the job of your dreams?" name="search">
                 <button type="submit" class="btn btn-dark">search</button>
 
             </form>
@@ -23,3 +26,9 @@
        
     </div>
 {% endblock content %}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<style>
+h1 {
+  font-family: "Audiowide", sans-serif;
+}
+</style>
