@@ -1,6 +1,7 @@
 {% extends 'engine/base.html' %}
 {% load static %}
 {% block content %}
+<link rel="stylesheet" href="cute.css">
 <style>
     div {
         text-align: center;
@@ -14,7 +15,7 @@
 </style>
     <div class="home">
         <h1>coolest job search engine</h1>
-        <img class="img1" src="../static/images/jobsearch.png" width="150" height="150">
+        <img class="img" src="../static/images/jobsearch.png" width="150" height="150">
         <div class="search-bar">
             <form method="POST" action="results">
                 {% csrf_token %}
