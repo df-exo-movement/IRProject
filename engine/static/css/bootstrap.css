@@ -198,6 +198,7 @@ figure {
 .img1{
   vertical-align: middle;
   border-style: none;
+  border: 8px ridge indianred;  
 }
 
 svg {
@@ -2949,12 +2950,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #007bff;
+  color: #25d3cb;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #0056b3;
+  color: #9e00b3;
   text-decoration: underline;
 }
 
