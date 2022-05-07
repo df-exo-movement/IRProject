@@ -1,3 +1,6 @@
 body {
-    background: rgb(213, 118, 192);
+    font-family: 'Inconsolata', monospace;
+    font-weight: 384;
+    background-image: linear-gradient(to bottom left, #FFB3E6, #BF80FF );
+    color: #BF80FF;
 }
