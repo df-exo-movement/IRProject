@@ -195,10 +195,10 @@ figure {
   margin: 0 0 1rem;
 }
 
-.img1{
+img, .img1{
   vertical-align: middle;
   border-style: none;
-  border: 8px ridge indianred;  
+  
 }
 
 svg {
