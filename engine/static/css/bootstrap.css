@@ -198,6 +198,9 @@ figure {
 img, .img1{
   vertical-align: middle;
   border-style: none;
+  width: 50px;
+  height: 45px;
+  border-radius: 50;
   
 }
 
@@ -4119,8 +4122,8 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #007bff;
+  color: rgb(20, 91, 222);
+  background-color: #00ff1a;
 }
 
 .nav-fill .nav-item {
@@ -4849,14 +4852,14 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #00ff4c;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #0056b3;
+  color: #b300b3;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -4882,7 +4885,7 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #007bff;
+  background-color: #00ff51;
   border-color: #007bff;
 }
 
